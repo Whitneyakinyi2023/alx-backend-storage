@@ -1,0 +1,6 @@
+# Ignore metal-bands.sql file
+metal-bands.sql
+
+# Other files and directories to ignore
+node_modules/
+*.log
