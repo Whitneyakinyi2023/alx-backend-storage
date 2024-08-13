@@ -1,7 +1,6 @@
-//Script that adds new attribute to a document
-db.school.updateMany({name:"Holberton school"},
-    {
-    $set: {address:"972 Mission street"}
-    }
-)
+//Update
+db.getCollection('school').updateMany(
+  { name: "Holberton school" },  // Filter documents with name="Holberton school"
+  { $set: { address: "972 Mission street" } }  // Update by adding the address attribute
+);
 
