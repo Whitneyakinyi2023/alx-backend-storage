@@ -1,4 +1,5 @@
 //Write a script that inserts a document
+db = connect($argv[0]);
+db.school.insertOne({ name: "Holberton school" });
+printjson(db.school.findOne());
 
-collection = db.school
-collection.insertOne({"name":"Holberton school"})
