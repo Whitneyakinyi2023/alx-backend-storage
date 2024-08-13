@@ -2,4 +2,3 @@
 
 collection = db.school
 collection.insertOne({"name":"Holberton school"})
-
